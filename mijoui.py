@@ -113,9 +113,6 @@ with col6:
 
 st.code("\n  ".join(cmd))
 
-if st.button("Copy", type="secondary"):
-    pyperclip.copy(" ".join(cmd))
-
 st.markdown(
     "For info about all the parameters, check the [official docs](https://docs.midjourney.com/docs/parameter-list)."
 )
